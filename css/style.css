@@ -1,0 +1,83 @@
+  body {
+    background-color: #4e4e4e;
+    color: #000;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+   }
+   #first > div{
+   		width:500px;
+   		margin:200px auto;   
+   }
+   #rooms{
+   	display:none;
+   }
+   #bottom{
+   }
+
+   #channels { padding:10px; }
+   #channels>a{ cursor:pointer; display:block; }
+   #channels>a>span{ float:right; }
+   #channels>a.sel{ background-color:#B0E0E6; }
+   
+   .users>a.sel{ background-color:#007FFF }
+
+.window_frame{
+  background-color:#fff; 
+  color:#000;	
+}
+
+.window_header,.window_footer {
+	background-color:#EEE;
+}
+.focused{
+	background-color:#C0C0C0 !important;
+	color:#000 !important;
+}
+.attention{
+background-color:#B0C4DE;
+color:#000099;
+}
+
+div.channelcontainer{
+ height:234px;
+ }
+
+.chatroom{
+	width:100%;
+	height:100%;
+}
+.chatroom td.room{
+	vertical-align: top;
+	display:block;
+	margin:5px 0;
+	overflow:auto;
+	height: 223px;
+	width:288px;
+}
+.chatroom td.room>p{
+	margin:0;
+	width: 274px;
+    word-wrap: break-word;
+}
+.chatroom td.room>p>span{
+	color:#555;
+}
+.chatroom td.users{
+	width:140px;
+	height: 223px;
+	vertical-align: top;
+	padding:2px 0;
+	border-left:1px solid #aaa;
+	overflow:hidden;
+}
+
+.chatroom td.users > a{
+	display:block;
+	padding:0px 5px;
+}
+
+div.input{ border-top:1px solid #aaa; }
+div.input>input{
+	width:100%;border:none
+} 
