@@ -1,6 +1,7 @@
 nodemirc
 ========
 
+
 A chat hello world written in nodejs, working demo;
 http://nodejsmirc.tk/
 
@@ -24,3 +25,5 @@ socket = io.connect('http://184.72.254.87:8080');
 
 use your domain, localhost or net ip;
 socket = io.connect('http://localhost:8080');
+
+Eugenio Fage
